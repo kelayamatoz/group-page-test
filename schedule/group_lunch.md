@@ -1,4 +1,3 @@
-# Summer 2018
 | Date        | Speaker       | Topic  | Lunch Buyer |
 | :-----------: | :-------------: | :------: | :-----------: | 
 | 6/28        | N/A           | N/A    | Tian        |
