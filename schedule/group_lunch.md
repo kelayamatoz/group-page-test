@@ -10,3 +10,4 @@
 | 8/16        |  Tushar       |  TBD   |  Tian       |
 | 8/23        |  Tian         |  TBD   |  Yaqi       |
 | 8/30        |  Murali       |  TBD   |  Luigi      |
+|<img width=200/>|<img width=500/>|<img width=200/>|<img width=500/>|
