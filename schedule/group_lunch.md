@@ -1,5 +1,5 @@
 | Date        | Speaker       | Topic  | Lunch Buyer |
-| ----------- | ------------- | ------ | ----------- | 
+| :-----------: | :-------------: | :------: | :-----------: | 
 | 6/28        | N/A           | N/A    | Tian        |
 | 7/5         |     Stefan    |  TBD   |  Masahiro   |
 | 7/12        |  Masahiro     |  TBD   |  Tushar     |
