@@ -6,6 +6,7 @@
 -->
 <html>
 	<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<title>Stanford Pervasive Parallelism Lab</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -21,7 +22,7 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-diamond"></span>
+							<span class="icon fa-microchip"></span>
 						</div>
 						<div class="content">
 							<div class="inner">
@@ -59,6 +60,18 @@
 							<article id="publications">
 								<h2 class="major">Publications</h2>
 								<span class="image main"><img src="images/plasticine.png" alt="" /></span>
+
+
+                  <div class="pub" title="emptyheaded">
+                    <p><strong>Plasticine: A Reconfigurable Architecture For Parallel Patterns</strong><br>
+                    Raghu Prabhakar Yaqi Zhang David Koeplinger Matt Feldman Tian Zhao Stefan Hadjis Ardavan Pedram Christos Kozyrakis Kunle Olukotun<br>
+                    <em>ISCA '16: 43rd International Symposium on Computer Architecture</em>, <br> <em>Top Picks special issue of IEEE Micro (May / June 2018)</em> <br>
+                    
+                    <a href="papers/isca17-raghu-plasticine.pdf" target="_blank">Paper PDF</a>
+                    
+                    </p>
+                  </div>
+
 
                   <div class="pub" title="emptyheaded">
                     <p><strong>EmptyHeaded: A Relational Engine for Graph Processing</strong><br>
@@ -699,74 +712,6 @@
                     
                     </p>
                   </div>
-
-
-
-
-<!-- 								<p><a href="papers/isca2017-prabhakar.pdf"><b>Plasticine: A Reconfigurable Architecture For Parallel Patterns</b></a> <br />
-                <i>Raghu Prabhakar, Yaqi Zhang, David Koeplinger, Matt Feldman, Tian Zhao, Stefan Hadjis, Ardavan Pedram, Christos Kozyrakis, Kunle Olukotun</i>
-                </p>
-
-                <p><a href="papers/emptyheaded.pdf"><b>EmptyHeaded: A Relational Engine for Graph Processing</b></a> <br />
-                <i>Christopher R. Aberger, Susan Tu, Kunle Olukotun, and Christopher Ré</i>
-                <i>SIGMOD '16: Special Interest Group on Management of Data, June 2016. (Best Of Award)</i>
-                </p>
-
-                <p><a href="papers/icml2016-cdesa.pdf"><b>Ensuring Rapid Mixing and Low Bias for Asynchronous Gibbs Sampling</b></a> <br />
-                <i>Christopher De Sa, Kunle Olukotun, and Christopher Ré</i>
-                <i>ICML '16: Proceedings of the 33rd Intl. Conference on Machine Learning, June 2016. (Best Paper Award)</i>
-                </p>
-
-
-                <p><a href="papers/isca2016-koeplinger.pdf"><b>Automatic Generation of Efficient Accelerators for Reconfigurable Hardware</b></a> <br />
-                <i>David Koeplinger, Raghu Prabhakar, Yaqi Zhang, Christina Delimitrou, Christos Kozyrakis, and Kunle Olukotun</i>
-                <i>ISCA '16: 43rd International Symposium on Computer Architecture, June 2016.</i>
-                </p>
-
-                <p><a href="papers/asplos16-prabhakar.pdf"><b>Generating Configurable Hardware from Parallel Patterns</b></a> <br />
-                <i>Kevin J. Brown, HyoukJoong Lee, Tiark Rompf, Arvind K. Sujeeth, Christopher De Sa, Christopher Aberger, and Kunle Olukotun</i>
-                <i>ASPLOS '16: 21st International Conference on Architectural Support for Programming Languages and Operating Systems, April 2016.</i>
-                </p>
-
-                <p><a href="papers/cgo16-brown.pdf.pdf"><b>Have Abstraction and Eat Performance, Too: Optimized Heterogeneous Computing with Parallel Patterns </b></a> <br />
-                <i>Raghu Prabhakar, David Koeplinger, Kevin J. Brown, HyoukJoong Lee, Christopher De Sa, Christos Kozyrakis, and Kunle Olukotun</i>
-                <i>CGO '16: International Symposium on Code Generation and Optimization, March 2016.</i>
-                </p>
-
-                <p><a href="papers/nips2015-cdesa-1.pdf"><b>Rapidly Mixing Gibbs Sampling for a Class of Factor Graphs Using Hierarchy Width </b></a> <br />
-                <i>Raghu Prabhakar, David Koeplinger, Kevin J. Brown, HyoukJoong Lee, Christopher De Sa, Christos Kozyrakis, and Kunle Olukotun</i>
-                <i>CGO '16: International Symposium on Code Generation and Optimization, March 2016.</i>
-                </p>
-
-                <p><a href="papers/nips2015-cdesa-2.pdf"><b>Taming the Wild: A Unified Analysis of Hogwild!-Style Algorithms </b></a> <br />
-                <i>Christopher De Sa, Ce Zhang, Christopher Ré, and Kunle Olukotun</i>
-                <i>NIPS '15: Proceedings of the 28th Neural Information Processing Systems Conference, December 2015.</i>
-                </p>
-
-                <p><a href="papers/icml2015-cdesa.pdf"><b>Global Convergence of Stochastic Gradient Descent for Some Non-convex Matrix Problems </b></a> <br />
-                <i>Christopher De Sa, Kunle Olukotun, and Christopher Ré</i>
-                <i>ICML '15: Proceedings of the 32nd Intl. Conference on Machine Learning, July 2015.</i>
-                </p>
-
-                <p><a href="papers/micro14-lee.pdf"><b>Locality-Aware Mapping of Nested Parallel Patterns on GPUs </b></a> <br />
-                <i>HyoukJoong Lee, Kevin J. Brown, Arvind K. Sujeeth, Tiark Rompf, and Kunle Olukotun</i>
-                <i>MICRO'14: 47th International Symposium on Microarchitecture, December 2014.</i>
-                </p>
-
-                <p><a href="papers/tecs14-sujeeth.pdf"><b>Delite: A Compiler Architecture for Performance-Oriented Embedded Domain-Specific Languages </b></a> <br />
-                <i>Arvind K. Sujeeth, Kevin J. Brown, HyoukJoong Lee, Tiark Rompf, Hassan Chafi, Martin Odersky, and Kunle Olukotun</i>
-                <i>TECS'14: ACM Transactions on Embedded Computing Systems, July 2014.</i>
-                </p>
-
-                <p><a href="papers/cgo14-hong.pdf"><b>Simplifying Scalable Graph Processing with a Domain-Specific Language </b></a> <br />
-                <i>Sungpack Hong, Semih Salihoglu, Jennifer Widom, and Kunle Olukotun</i>
-                <i>CGO'14: International Symposium on Code Generation and Optimization, February 2014.</i>
-                </p>
- -->
-
-
-
-
 
 							</article>
 
