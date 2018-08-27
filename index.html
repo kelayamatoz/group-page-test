@@ -49,17 +49,38 @@
 								<span class="image main"><img src="images/neuralnetworks.png" alt="" /></span>
                   <p>Employing Machine Learning to generate models from data is replacing traditional software development in many applications. This fundamental shift in how we develop software is known as Software 2.0. However, the continued success of Software 2.0 relies on the availability of powerful, efficient and flexible computer systems. </p> 
                   <p>This talk will introduce a design paradigm that exploits the characteristics of Software 2.0 to create computer systems that are optimized for both programmability and performance. The key to the design paradigm is a full-stack approach that integrates algorithms, domain-specific languages, advanced compilation technology and new hardware architectures.</p>
+                  <p><a href="/papers/isca2018-kunle-keynote.pdf"> Presentation Link </a></p>
 
 <!-- 								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p> -->
 							</article>
 
 						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+							<article id="publications">
+								<h2 class="major">Publications</h2>
+								<span class="image main"><img src="images/plasticine.png" alt="" /></span>
+								<p><b>Plasticine: A Reconfigurable Architecture For Parallel Patterns</b></p>
+                <p><i>Raghu Prabhakar, Yaqi Zhang, David Koeplinger, Matt Feldman, Tian Zhao, Stefan Hadjis, Ardavan Pedram, Christos Kozyrakis, Kunle Olukotun</i> </p>
+								<p>Reconfigurable architectures have gained popularity in recent years as they allow the design of energy-efficient accelerators. Fine-grain fabrics (e.g. FPGAs) have traditionally suffered from performance and power inefficiencies due to bit-level reconfigurable abstractions. Both fine-grain and coarse-grain architectures (e.g. CGRAs) traditionally require low level programming and suffer from long compilation times. We address both challenges with Plasticine, a new spatially reconfigurable architecture designed to efficiently execute applications composed of parallel patterns. Parallel patterns have emerged from recent research on parallel programming as powerful, high-level abstractions that can elegantly capture data locality, memory access patterns, and parallelism across a wide range of dense and sparse applications.</p>
+                <p>We motivate Plasticine by first observing key application characteristics
+                    captured by parallel patterns that are amenable to hardware
+                    acceleration, such as hierarchical parallelism, data locality, memory
+                    access patterns, and control flow. Based on these observations,
+                    we architect Plasticine as a collection of Pattern Compute Units
+                    and Pattern Memory Units. Pattern Compute Units are multi-stage
+                    pipelines of reconfigurable SIMD functional units that can efficiently
+                    execute nested patterns. Data locality is exploited in Pattern Memory
+                    Units using banked scratchpad memories and configurable address
+                    decoders. Multiple on-chip address generators and scatter-gather
+                    engines make efficient use of DRAM bandwidth by supporting a
+                    large number of outstanding memory requests, memory coalescing,
+                    and burst mode for dense accesses. Plasticine has an area footprint
+                    of 113 mm2
+                    in a 28nm process, and consumes a maximum power
+                    of 49 W at a 1 GHz clock. Using a cycle-accurate simulator, we
+                    demonstrate that Plasticine provides an improvement of up to 76.9×
+                    in performance-per-Watt over a conventional FPGA over a wide
+                    range of dense and sparse applications.</p>
 							</article>
 
 						<!-- About -->
