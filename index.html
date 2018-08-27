@@ -32,8 +32,9 @@
 						<nav>
 							<ul>
 								<li><a href="#spotlight">Spotlight</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">Students</a></li>
+								<li><a href="#publications">Work</a></li>
+								<li><a href="#members">Members</a></li>
+                <li><a href="#projects">Projects</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -47,48 +48,74 @@
 							<article id="spotlight">
 								<h2 class="major">Spotlight</h2>
 								<span class="image main"><img src="images/neuralnetworks.png" alt="" /></span>
-                  <p>Employing Machine Learning to generate models from data is replacing traditional software development in many applications. This fundamental shift in how we develop software is known as Software 2.0. However, the continued success of Software 2.0 relies on the availability of powerful, efficient and flexible computer systems. </p> 
+                  <p><a href="papers/isca2018-kunle-keynote.pdf"><b>Designing Computer Systems for Software 2.0</b></a></p>
+                  <p>Employing Machine Learning to generate models from data is replacing traditional software development in many applications. This fundamental shift in how we develop software is known as Software 2.0. However, the continued success of Software 2.0 relies on the availability of powerful, efficient and flexible computer systems. </p>
                   <p>This talk will introduce a design paradigm that exploits the characteristics of Software 2.0 to create computer systems that are optimized for both programmability and performance. The key to the design paradigm is a full-stack approach that integrates algorithms, domain-specific languages, advanced compilation technology and new hardware architectures.</p>
-                  <p><a href="/papers/isca2018-kunle-keynote.pdf"> Presentation Link </a></p>
 
-<!-- 								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p> -->
 							</article>
 
-						<!-- Work -->
+						<!-- Publications -->
 							<article id="publications">
 								<h2 class="major">Publications</h2>
 								<span class="image main"><img src="images/plasticine.png" alt="" /></span>
-								<p><b>Plasticine: A Reconfigurable Architecture For Parallel Patterns</b></p>
-                <p><i>Raghu Prabhakar, Yaqi Zhang, David Koeplinger, Matt Feldman, Tian Zhao, Stefan Hadjis, Ardavan Pedram, Christos Kozyrakis, Kunle Olukotun</i> </p>
-								<p>Reconfigurable architectures have gained popularity in recent years as they allow the design of energy-efficient accelerators. Fine-grain fabrics (e.g. FPGAs) have traditionally suffered from performance and power inefficiencies due to bit-level reconfigurable abstractions. Both fine-grain and coarse-grain architectures (e.g. CGRAs) traditionally require low level programming and suffer from long compilation times. We address both challenges with Plasticine, a new spatially reconfigurable architecture designed to efficiently execute applications composed of parallel patterns. Parallel patterns have emerged from recent research on parallel programming as powerful, high-level abstractions that can elegantly capture data locality, memory access patterns, and parallelism across a wide range of dense and sparse applications.</p>
-                <p>We motivate Plasticine by first observing key application characteristics
-                    captured by parallel patterns that are amenable to hardware
-                    acceleration, such as hierarchical parallelism, data locality, memory
-                    access patterns, and control flow. Based on these observations,
-                    we architect Plasticine as a collection of Pattern Compute Units
-                    and Pattern Memory Units. Pattern Compute Units are multi-stage
-                    pipelines of reconfigurable SIMD functional units that can efficiently
-                    execute nested patterns. Data locality is exploited in Pattern Memory
-                    Units using banked scratchpad memories and configurable address
-                    decoders. Multiple on-chip address generators and scatter-gather
-                    engines make efficient use of DRAM bandwidth by supporting a
-                    large number of outstanding memory requests, memory coalescing,
-                    and burst mode for dense accesses. Plasticine has an area footprint
-                    of 113 mm2
-                    in a 28nm process, and consumes a maximum power
-                    of 49 W at a 1 GHz clock. Using a cycle-accurate simulator, we
-                    demonstrate that Plasticine provides an improvement of up to 76.9×
-                    in performance-per-Watt over a conventional FPGA over a wide
-                    range of dense and sparse applications.</p>
+								<p><a href="papers/isca2017-prabhakar.pdf"><b>Plasticine: A Reconfigurable Architecture For Parallel Patterns</b></a> <br />
+                <i>Raghu Prabhakar, Yaqi Zhang, David Koeplinger, Matt Feldman, Tian Zhao, Stefan Hadjis, Ardavan Pedram, Christos Kozyrakis, Kunle Olukotun</i>
+                </p>
+
+                <p><a href="papers/emptyheaded.pdf"><b>EmptyHeaded: A Relational Engine for Graph Processing</b></a> <br />
+                <i>Christopher R. Aberger, Susan Tu, Kunle Olukotun, and Christopher Ré</i>
+                </p>
+
+                <p><a href="papers/icml2016-cdesa.pdf"><b>Ensuring Rapid Mixing and Low Bias for Asynchronous Gibbs Sampling</b></a> <br />
+                <i>Christopher De Sa, Kunle Olukotun, and Christopher Ré</i>
+                </p>
+
+
+                <p><a href="papers/isca2016-koeplinger.pdf"><b>Automatic Generation of Efficient Accelerators for Reconfigurable Hardware</b></a> <br />
+                <i>David Koeplinger, Raghu Prabhakar, Yaqi Zhang, Christina Delimitrou, Christos Kozyrakis, and Kunle Olukotun</i>
+                </p>
+
+                <p><a href="papers/asplos16-prabhakar.pdf"><b>Generating Configurable Hardware from Parallel Patterns</b></a> <br />
+                <i>Raghu Prabhakar, David Koeplinger, Kevin J. Brown, HyoukJoong Lee, Christopher De Sa, Christos Kozyrakis, and Kunle Olukotun</i>
+                </p>
+
 							</article>
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+						<!-- Members -->
+							<article id="members">
+								<h2 class="major">Members</h2>
+                <h3> Principle Investigator</h3>
+								<span class="image main"><img src="images/ko.png" alt="" /></span>
+								<p><b>Kunle Olukotun</b>  is the Cadence Design Professor of Electrical Engineering and Computer Science at Stanford University. Olukotun is well known as a pioneer in multicore processor design and the leader of the Stanford Hydra chip multipocessor (CMP) research project. Olukotun founded Afara Websystems to develop high-throughput, low-power multicore processors for server systems. The Afara multicore processor, called Niagara, was acquired by Sun Microsystems. Niagara derived processors now power all Oracle SPARC-based servers. </p>
+                <p>Olukotun currently directs the Stanford Pervasive Parallelism Lab (PPL), which seeks to proliferate the use of heterogeneous parallelism in all application areas using Domain Specific Languages (DSLs). Olukotun is a member of the Data Analytics for What’s Next (DAWN) Lab which is developing infrastructure for usable machine learning. Olukotun is an ACM Fellow and IEEE Fellow for contributions to multiprocessors on a chip and multi-threaded processor design and is the recipient of of the 2018 IEEE Harry H. Goode Memorial Award. Olukotun received his Ph.D. in Computer Engineering from The University of Michigan.</p>
+
+                <h3> Students </h3>
+                <p><a href="https://platformlab.stanford.edu/student-raghu-prabhakar.php"><b>Raghu Prabhakar</b></a></p>
+                <p><b>David Koeplinger</b></p>
+                <p><a href="http://aberger.site/"><b>Christopher R. Aberger</b></a></p>
+                <p><a href="https://cs.stanford.edu/people/shadjis/"> <b>Stefan Hadjis</b></a></p>
+                <p><b>Yaqi Zhang</b></p>
+                <p><a href="https://mattfel1.github.io/"> <b>Matthew Feldman</b></a></p>
+                <p><b> Tian Zhao </b></p>
+                <p><b> Tushar Swamy </b></p>
+                <p><b> Matthew Villim </b></p>
+                <p><b> Alex Rucker </b></p>
+                <p><b> Nathan Zhang </b></p>
+                <p><a href="images/daisy_writing_code.JPG"> <b> Daisy </b></a></p>
+
+                <h3> Alumni </h3>
+
+
 							</article>
+
+
+            <!-- Projects -->
+              <article id="projects">
+                <h2 class="major">Projects</h2>
+                <h3><a href="https://spatial-lang.org/"> Spatial </a></h3>
+                <p> Specify Parameterized Accelerators Through Inordinately Abstract Language </p>
+
+              </article>
 
 						<!-- Contact -->
 							<article id="contact">
@@ -365,7 +392,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+            <!-- TODO: add DAWN logo -->
+						<p class="copyright">&copy; Design Reference: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
